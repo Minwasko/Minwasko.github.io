@@ -4,7 +4,7 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "build": "webpack --config ./src/client/webpack.prod.js",
+    "build": "vite build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npx vite",
     "deploy": "gh-pages -d dist"
@@ -23,6 +23,7 @@
     "three": "^0.153.0"
   },
   "devDependencies": {
+    "dat.gui": "^0.7.9",
     "gh-pages": "^5.0.0",
     "vite": "^4.3.9",
     "webpack": "^5.85.0",
